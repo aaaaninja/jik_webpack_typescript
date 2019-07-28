@@ -8,7 +8,9 @@ module.exports = {
   ]
 , parser: "@typescript-eslint/parser"
 , rules: {
-    semi: "error"
+    semi: "error",
+    indent: "off",
+    "@typescript-eslint/indent": [ "error", 2 ]
   }
 , env: { browser: true, es6: true, node: true } 
 }
